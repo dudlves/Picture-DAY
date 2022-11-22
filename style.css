@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    opacity: 1;
+   align-items: center;
+   width: 641px;
+}
+
+img{
+   height: 667px;
+   width: 2055px;
+}
