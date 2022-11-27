@@ -43,18 +43,19 @@ border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 #container{
     color: rgb(255, 255, 255);
    align-items: center;
-   margin-top: 206px;
+   margin-top: 168px;
    width: 736px;
 }
 
 section{
-    margin-top: 100px;
-    color: rgb(255, 255, 255);
+    margin-top: 133px;
+    color: rgb(255 255 255 / 68%);
     width: 358px;
     height: 59px;
     background: #242424;
@@ -62,8 +63,10 @@ section{
     display:flex ;
     padding: 20px;
     justify-content: space-around;
+    align-items: center;
 }
 
 section > img{
-    background-color: white;
+    width: 35px;
+    height: 35px;
 }
