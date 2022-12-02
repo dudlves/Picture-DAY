@@ -1,11 +1,10 @@
-
 var btn = document.getElementById('texto');
 var container = document.getElementById('container');
 btn.addEventListener('click', function() {
-  if(container.style.display === 'block') {
-      container.style.display = 'none';
-  } else {
-      container.style.display = 'block';
+  if(container.style.visibility === 'hidden') {
+    container.style.visibility = 'visible';
+  }else {
+    container.style.visibility = 'hidden';
   }
 })
 
@@ -14,3 +13,7 @@ btn.addEventListener('click', function() {
 //     const result = await data.json()
 //     console.log(result)
 // })
+
+// if else(btn.style.backgroundImage == url("./Untitled design.png")){
+//     btn.style.backgroundImage = url("./Untitled design2.png")
+//   }
