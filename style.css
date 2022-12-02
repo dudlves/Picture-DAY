@@ -100,3 +100,9 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     filter: invert(0.8) brightness(1000%) sepia(1%) saturate(1000%) hue-rotate(20deg);
     background-image: none;
 }
+
+#div{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
