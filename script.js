@@ -32,7 +32,7 @@ async function api(){
 
 function usandoApi(dados){
   document.querySelector('#container').innerHTML = dados.explanation;
-  document.querySelector("#container").innerHTML += ` <img src="${dados.url}">`;
+  document.querySelector("#background").innerHTML += ` <img src="${dados.url}">`;
 }
 
 // if else(btn.style.backgroundImage == url("./Untitled design.png")){

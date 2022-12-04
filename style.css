@@ -8,11 +8,16 @@ body{
 }
 
 #background{
-border-radius: 20px;
-    background-image: url(./FKIwMliX0AIeIBS.jpg);
-    background-size: cover;
-    width: 100vw;
+height: 300px;
+}
+
+#background > img{
+    /* border-radius: 20px; */
+    /* width: 100vw;
+    height: 100vh; */
+    /* height: 225px; */
     height: 100vh;
+    width: 100vw;
  }
 
 main{
@@ -25,13 +30,13 @@ main{
 #container{
     color: rgb(255, 255, 255);
    align-items: center;
-   margin-top: 168px;
+   /* margin-top: 168px; */
    width: 736px;
 }
 
 
 section{
-    margin-top: 133px;
+    margin-top: 93px;
     color: rgb(255 255 255 / 68%);
     width: 313px;
     height: 59px;
