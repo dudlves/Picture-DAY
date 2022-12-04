@@ -1,24 +1,8 @@
 var btn = document.getElementById('texto');
 var container = document.getElementById('container');
 btn.addEventListener('click', () => {
-  // if(container.style.visibility === 'hidden') {
-  //   container.style.visibility = 'visible';
-  // }else {
-  //   container.style.visibility = 'hidden';
-  // }
   api()
 })
-
-// btn.addEventListener("click", async () => {
-  
-   
-    
-//    console.log(result)
-//   //  const imgURL = URL.createObjectURL(result)
-//   //  const img = `<img src="${imgURL}"/>`
-//   //  document.getElementById("background").innerHTML = img
-//   //  console.log(img)
-// })
 
 async function api(){
   const input = document.getElementById('data').value;
@@ -33,22 +17,5 @@ async function api(){
 function usandoApi(dados){
   document.querySelector('#container').innerHTML = dados.explanation;
   document.querySelector("#background").innerHTML += ` <img src="${dados.url}">`;
+  document.querySelector('#title').innerHTML = dados.title;
 }
-
-// if else(btn.style.backgroundImage == url("./Untitled design.png")){
-//     btn.style.backgroundImage = url("./Untitled design2.png")
-//   }
-
-
-// export interface Heroi {
-//   id: string,
-//   name: string,
-//   image: { url: string }
-//  }
-//  <ul *ngFor="let heroi of herois">  
-//    <li>
-//      <img src="{{heroi.image.url}}" alt="">
-//       <p>{{ heroi.id }}</p>
-//       <p>{{ heroi.name }}</p>
-//    </li>
-//  </ul>
